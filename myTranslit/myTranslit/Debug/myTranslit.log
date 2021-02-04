@@ -1,0 +1,46 @@
+﻿Build started 28.10.2019 23:15:04.
+     1>Project "C:\Users\mrsta\Desktop\Транслитератор\Исходники\myTranslit\myTranslit\myTranslit.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\myTranslit.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\myTranslit.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\myTranslit.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\myTranslit.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt functionsTest.cpp myTranslit.cpp
+         myTranslit.cpp
+     1>c:\users\mrsta\desktop\транслитератор\исходники\mytranslit\mytranslit\mytranslit.cpp(145): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\mrsta\desktop\транслитератор\исходники\mytranslit\mytranslit\mytranslit.cpp(193): warning C4018: '<' : signed/unsigned mismatch
+         functionsTest.cpp
+     1>d:\program files (x86)\microsoft visual studio 10.0\vc\include\intrin.h(1087): warning C4995: 'wcscat': name was marked as #pragma deprecated
+     1>d:\program files (x86)\microsoft visual studio 10.0\vc\include\intrin.h(1089): warning C4995: 'wcscpy': name was marked as #pragma deprecated
+     1>c:\users\mrsta\desktop\транслитератор\исходники\mytranslit\mytranslit\functionstest.cpp(96): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\mrsta\desktop\транслитератор\исходники\mytranslit\mytranslit\functionstest.cpp(97): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\mrsta\desktop\транслитератор\исходники\mytranslit\mytranslit\functionstest.cpp(98): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         Generating Code...
+     1>c:\users\mrsta\desktop\транслитератор\исходники\mytranslit\mytranslit\mytranslit.cpp(180): warning C4715: 'canTranslit' : not all control paths return a value
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\myTranslit.exe.embed.manifest.res" Debug\myTranslit_manifest.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mrsta\Desktop\Транслитератор\Исходники\myTranslit\Debug\myTranslit.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\myTranslit.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\mrsta\Desktop\Транслитератор\Исходники\myTranslit\Debug\myTranslit.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mrsta\Desktop\Транслитератор\Исходники\myTranslit\Debug\myTranslit.lib" /MACHINE:X86 Debug\myTranslit.exe.embed.manifest.res
+         Debug\functionsTest.obj
+         Debug\myTranslit.obj
+         Debug\stdafx.obj
+       Manifest:
+         Deleting file "Debug\myTranslit.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\myTranslit.exe.embed.manifest" /manifest Debug\myTranslit.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\myTranslit.exe.embed.manifest.res" Debug\myTranslit_manifest.rc 
+       LinkEmbedManifest:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mrsta\Desktop\Транслитератор\Исходники\myTranslit\Debug\myTranslit.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\myTranslit.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\mrsta\Desktop\Транслитератор\Исходники\myTranslit\Debug\myTranslit.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mrsta\Desktop\Транслитератор\Исходники\myTranslit\Debug\myTranslit.lib" /MACHINE:X86 Debug\myTranslit.exe.embed.manifest.res
+         Debug\functionsTest.obj
+         Debug\myTranslit.obj
+         Debug\stdafx.obj
+         myTranslit.vcxproj -> C:\Users\mrsta\Desktop\Транслитератор\Исходники\myTranslit\Debug\myTranslit.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\myTranslit.unsuccessfulbuild".
+         Touching "Debug\myTranslit.lastbuildstate".
+     1>Done Building Project "C:\Users\mrsta\Desktop\Транслитератор\Исходники\myTranslit\myTranslit\myTranslit.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.59
